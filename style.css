@@ -1,0 +1,256 @@
+/* ヴァンフォーレ甲府カスタムスタイル */
+:root {
+  /* ヴァンフォーレ甲府のチームカラー */
+  --vfk-blue: #0e6cbf;
+  --vfk-light-blue: #3b82f6; /* ライトブルー */
+  --vfk-red: #dc2626; /* アクセントレッド（ワインレッド調） */
+  --vfk-light-red: #f87171; /* ライトレッド */
+
+  /* ベースカラー */
+  --bg-main: #ffffff;
+  --bg-subtle: #f8fafc;
+  --text-main: #1f2937;
+  --text-muted: #64748b;
+  --border-color: #e2e8f0;
+}
+
+/* 全体のベース設定 */
+.slidev-layout {
+  @apply bg-white text-gray-900;
+  font-family: 'Inter', 'Hiragino Sans', 'Yu Gothic', sans-serif;
+}
+
+/* タイトルスライド */
+.slidev-layout[data-layout='cover'] {
+  background: linear-gradient(135deg, #ffffff 0%, #f1f5f9 100%);
+}
+
+/* セクションスライド */
+.slidev-layout[data-layout='section'] {
+  background: linear-gradient(135deg, var(--vfk-blue) 0%, var(--vfk-light-blue) 100%);
+  color: white;
+}
+
+.slidev-layout[data-layout='section'] h1 {
+  @apply text-white text-5xl font-bold mb-4;
+}
+
+.slidev-layout[data-layout='section'] h2 {
+  @apply text-blue-100 text-2xl font-medium;
+}
+
+/* エンドスライド */
+.slidev-layout[data-layout='end'] {
+  background: linear-gradient(135deg, var(--vfk-blue) 0%, var(--vfk-red) 100%);
+  color: white;
+}
+
+.slidev-layout[data-layout='end'] h1 {
+  @apply text-white text-4xl font-bold mb-6;
+}
+
+/* 見出しのスタイリング */
+h1 {
+  @apply text-4xl font-bold text-gray-900 mb-6;
+  color: var(--vfk-blue);
+}
+
+h2 {
+  @apply text-2xl font-semibold mb-4;
+  color: var(--vfk-blue);
+}
+
+h3 {
+  @apply text-xl font-semibold mb-3;
+  color: var(--vfk-blue);
+}
+
+/* アクセントカラーのオーバーライド */
+.text-blue-600 {
+  color: var(--vfk-blue) !important;
+}
+
+.text-blue-700 {
+  color: var(--vfk-blue) !important;
+}
+
+.text-blue-800 {
+  color: var(--vfk-blue) !important;
+}
+
+.text-red-600,
+.text-red-700,
+.text-red-800 {
+  color: var(--vfk-red) !important;
+}
+
+/* 背景色のオーバーライド */
+.bg-blue-50 {
+  background-color: #eff6ff !important;
+  border-left: 4px solid var(--vfk-blue);
+}
+
+.bg-blue-100 {
+  background-color: #dbeafe !important;
+  border-left: 4px solid var(--vfk-blue);
+}
+
+.bg-red-50 {
+  background-color: #fef2f2 !important;
+  border-left: 4px solid var(--vfk-red);
+}
+
+.bg-red-100 {
+  background-color: #fee2e2 !important;
+  border-left: 4px solid var(--vfk-red);
+}
+
+.bg-green-50 {
+  background-color: #f0fdf4 !important;
+  border-left: 4px solid #16a34a;
+}
+
+.bg-yellow-50 {
+  background-color: #fefce8 !important;
+  border-left: 4px solid #ca8a04;
+}
+
+.bg-purple-50 {
+  background-color: #faf5ff !important;
+  border-left: 4px solid #9333ea;
+}
+
+.bg-orange-50 {
+  background-color: #fff7ed !important;
+  border-left: 4px solid #ea580c;
+}
+
+.bg-gray-100 {
+  background-color: #f3f4f6 !important;
+  border-left: 4px solid #6b7280;
+}
+
+/* ボタンスタイル */
+.bg-blue-600 {
+  background-color: var(--vfk-blue) !important;
+}
+
+.hover\:bg-blue-700:hover {
+  background-color: var(--vfk-blue) !important;
+  filter: brightness(0.9);
+}
+
+/* Jリーグピラミッド構造の色調整 */
+.bg-red-500 {
+  background-color: var(--vfk-red) !important;
+}
+
+.bg-orange-500 {
+  background-color: #f97316 !important;
+}
+
+.bg-yellow-500 {
+  background-color: #eab308 !important;
+}
+
+/* グラデーション背景 */
+.bg-gradient-to-r.from-blue-500.to-blue-700 {
+  background: linear-gradient(to right, var(--vfk-blue), var(--vfk-blue)) !important;
+  filter: brightness(0.95);
+}
+
+.bg-gradient-to-r.from-blue-500.to-purple-600 {
+  background: linear-gradient(to right, var(--vfk-blue), var(--vfk-red)) !important;
+}
+
+.bg-gradient-to-r.from-blue-50.to-blue-100 {
+  background: linear-gradient(to right, #eff6ff, #dbeafe) !important;
+  border-left: 4px solid var(--vfk-blue);
+}
+
+.bg-gradient-to-r.from-green-50.to-green-100 {
+  background: linear-gradient(to right, #f0fdf4, #dcfce7) !important;
+  border-left: 4px solid #16a34a;
+}
+
+.bg-gradient-to-b.from-red-100.to-red-50 {
+  background: linear-gradient(to bottom, #fee2e2, #fef2f2) !important;
+  border-left: 4px solid var(--vfk-red);
+}
+
+.bg-gradient-to-r.from-gray-100.to-gray-200 {
+  background: linear-gradient(to right, #f3f4f6, #e5e7eb) !important;
+  border-left: 4px solid #6b7280;
+}
+
+/* カードスタイルの改善 */
+.rounded-lg {
+  @apply shadow-sm;
+  border: 1px solid var(--border-color);
+}
+
+/* リストのスタイル改善 */
+ul li {
+  @apply mb-1;
+}
+
+/* コードブロックのスタイル */
+pre {
+  @apply bg-gray-50 border border-gray-200 rounded-lg;
+}
+
+/* 強調テキスト */
+strong,
+.font-bold {
+  font-weight: 700;
+}
+
+/* 履歴年表のスタイル改善 */
+.timeline .bg-gray-200,
+.timeline .bg-blue-200,
+.timeline .bg-red-200,
+.timeline .bg-green-200,
+.timeline .bg-yellow-200 {
+  @apply shadow-sm border;
+}
+
+.timeline .bg-gray-200 {
+  border-color: #9ca3af;
+}
+
+.timeline .bg-blue-200 {
+  border-color: var(--vfk-blue);
+}
+
+.timeline .bg-red-200 {
+  border-color: var(--vfk-red);
+}
+
+/* アニメーション */
+.slidev-layout {
+  transition: all 0.3s ease;
+}
+
+/* プレゼンターモードでの見やすさ改善 */
+@media (max-width: 768px) {
+  .grid-cols-2 {
+    @apply grid-cols-1 gap-4;
+  }
+
+  .grid-cols-3 {
+    @apply grid-cols-1 gap-3;
+  }
+
+  .grid-cols-5 {
+    @apply grid-cols-2 gap-2;
+  }
+}
+
+/* 特殊レイアウトの調整 */
+.slidev-layout[data-layout='center'] {
+  @apply flex flex-col justify-center items-center;
+}
+
+.slidev-layout[data-layout='center'] .slidev-content {
+  @apply text-center;
+}

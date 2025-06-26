@@ -1,13 +1,16 @@
 ---
 theme: default
-background: https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=1920
+background:
 title: ヴァンフォーレ甲府を知る・応援する
 info: |
   ## ヴァンフォーレ甲府を知る・応援する
   日本のサッカー構造から、ヴァンフォーレ甲府の魅力、そして応援の楽しさ（苦しさ）まで
 class: text-center
+colorSchema: light
 transition: slide-left
 mdc: true
+drawings:
+  persist: false
 ---
 
 # ヴァンフォーレ甲府を知る・応援する
@@ -195,7 +198,7 @@ JITリサイクルインク スタジアム
 ::right::
 
 <div class="flex flex-col items-center justify-center h-full">
-  <img src="https://via.placeholder.com/350x350/0066CC/FFFFFF?text=ヴァンフォーレ甲府エンブレム" alt="エンブレム" class="rounded-lg shadow-lg mb-4">
+  <img src="https://via.placeholder.com/350x350/1e3a8a/FFFFFF?text=ヴァンフォーレ甲府エンブレム" alt="エンブレム" class="rounded-lg shadow-lg mb-4">
   <p class="text-sm text-gray-600">2025年 創設60周年</p>
 </div>
 
@@ -349,7 +352,7 @@ JITリサイクルインク スタジアム
 ---
 
 layout: image-right
-image: https://via.placeholder.com/600x800/FFD700/000000?text=天皇杯
+image: https://via.placeholder.com/600x800/dc2626/FFFFFF?text=天皇杯トロフィー
 
 ---
 
@@ -357,14 +360,10 @@ image: https://via.placeholder.com/600x800/FFD700/000000?text=天皇杯
 
 ## 歴史的快挙
 
-<v-clicks>
-
 - **J2所属での優勝は史上初**
 - J1の5チームを撃破
 - 決勝: ヴァンフォーレ 2-1 広島
 - 甲府の街が歓喜に包まれた
-
-</v-clicks>
 
 <div v-after class="mt-6 bg-yellow-50 p-4 rounded-lg">
   <p class="font-bold">この優勝が証明したこと</p>
