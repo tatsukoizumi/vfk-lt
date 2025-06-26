@@ -13,29 +13,13 @@ drawings:
   persist: false
 ---
 
-# ヴァンフォーレ甲府を知る・応援する
-
-<div class="text-2xl text-gray-600 mt-8">
-日本サッカーの構造から地方クラブの魅力まで
-</div>
-
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-4 py-2 rounded-lg bg-blue-600 text-white cursor-pointer hover:bg-blue-700">
-    始める <carbon:arrow-right class="inline"/>
-  </span>
-</div>
-
-<!--
-今日は日本のサッカー構造から始めて、ヴァンフォーレ甲府というクラブを知り、
-応援することの楽しさと苦しさをお伝えします。
--->
+# ヴァンフォーレ甲府
 
 ---
-
-## layout: section
+layout: section
+---
 
 # 第1部
-
 ## 日本サッカーの構造とJリーグ
 
 <!--
@@ -155,11 +139,10 @@ Jリーグの最大の特徴は「地域密着」です。
 -->
 
 ---
-
-## layout: section
+layout: section
+---
 
 # 第2部
-
 ## ヴァンフォーレ甲府の概要
 
 <!--
@@ -167,8 +150,8 @@ Jリーグの最大の特徴は「地域密着」です。
 -->
 
 ---
-
-## layout: two-cols
+layout: two-cols
+---
 
 # ヴァンフォーレ甲府とは
 
@@ -244,11 +227,10 @@ JITリサイクルインク スタジアム
 -->
 
 ---
-
-## layout: section
+layout: section
+---
 
 # 第3部
-
 ## 歴史 - 栄光と苦難
 
 <!--
@@ -256,8 +238,8 @@ JITリサイクルインク スタジアム
 -->
 
 ---
-
-## layout: center
+layout: center
+---
 
 # 歴史年表
 
@@ -350,20 +332,22 @@ JITリサイクルインク スタジアム
 -->
 
 ---
-
 layout: image-right
 image: https://via.placeholder.com/600x800/dc2626/FFFFFF?text=天皇杯トロフィー
-
 ---
 
 # 2022年 天皇杯優勝
 
 ## 歴史的快挙
 
+<v-clicks>
+
 - **J2所属での優勝は史上初**
 - J1の5チームを撃破
 - 決勝: ヴァンフォーレ 2-1 広島
 - 甲府の街が歓喜に包まれた
+
+</v-clicks>
 
 <div v-after class="mt-6 bg-yellow-50 p-4 rounded-lg">
   <p class="font-bold">この優勝が証明したこと</p>
@@ -377,11 +361,10 @@ J2のクラブがJ1の強豪を次々と倒しての優勝は、
 -->
 
 ---
-
-## layout: section
+layout: section
+---
 
 # 第4部
-
 ## 応援する楽しさと苦しさ
 
 <!--
@@ -507,10 +490,8 @@ J2の日常は、希望と失望の繰り返しです。
 -->
 
 ---
-
 layout: center
 class: text-center
-
 ---
 
 # なぜ応援を続けるのか
@@ -538,8 +519,8 @@ class: text-center
 -->
 
 ---
-
-## layout: end
+layout: end
+---
 
 # ヴァンフォーレ甲府へようこそ
 
