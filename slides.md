@@ -16,10 +16,11 @@ drawings:
 # ヴァンフォーレ甲府
 
 ---
-layout: section
----
+
+## layout: section
 
 # 第1部
+
 ## 日本サッカーの構造とJリーグ
 
 <!--
@@ -139,10 +140,11 @@ Jリーグの最大の特徴は「地域密着」です。
 -->
 
 ---
-layout: section
----
+
+## layout: section
 
 # 第2部
+
 ## ヴァンフォーレ甲府の概要
 
 <!--
@@ -150,8 +152,8 @@ layout: section
 -->
 
 ---
-layout: two-cols
----
+
+## layout: two-cols
 
 # ヴァンフォーレ甲府とは
 
@@ -227,10 +229,11 @@ JITリサイクルインク スタジアム
 -->
 
 ---
-layout: section
----
+
+## layout: section
 
 # 第3部
+
 ## 歴史 - 栄光と苦難
 
 <!--
@@ -238,8 +241,8 @@ layout: section
 -->
 
 ---
-layout: center
----
+
+## layout: center
 
 # 歴史年表
 
@@ -332,8 +335,10 @@ layout: center
 -->
 
 ---
+
 layout: image-right
 image: https://via.placeholder.com/600x800/dc2626/FFFFFF?text=天皇杯トロフィー
+
 ---
 
 # 2022年 天皇杯優勝
@@ -361,10 +366,11 @@ J2のクラブがJ1の強豪を次々と倒しての優勝は、
 -->
 
 ---
-layout: section
----
+
+## layout: section
 
 # 第4部
+
 ## 応援する楽しさと苦しさ
 
 <!--
@@ -490,8 +496,10 @@ J2の日常は、希望と失望の繰り返しです。
 -->
 
 ---
+
 layout: center
 class: text-center
+
 ---
 
 # なぜ応援を続けるのか
@@ -519,8 +527,8 @@ class: text-center
 -->
 
 ---
-layout: end
----
+
+## layout: end
 
 # ヴァンフォーレ甲府へようこそ
 
