@@ -1,21 +1,19 @@
 ---
 theme: default
-background: https://images.unsplash.com/photo-1518791841217-8f162f1e1131?w=1920
-title: ヴァンフォーレ甲府 - 風林火山の誇り
+background: https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=1920
+title: ヴァンフォーレ甲府を知る・応援する
 info: |
-  ## ヴァンフォーレ甲府について
-  山梨県のプロサッカークラブ、ヴァンフォーレ甲府の歴史と魅力を紹介します。
+  ## ヴァンフォーレ甲府を知る・応援する
+  日本のサッカー構造から、ヴァンフォーレ甲府の魅力、そして応援の楽しさ（苦しさ）まで
 class: text-center
 transition: slide-left
 mdc: true
 ---
 
-# ヴァンフォーレ甲府
+# ヴァンフォーレ甲府を知る・応援する
 
-## 風林火山の誇り
-
-<div class="text-2xl text-blue-600 font-bold mt-8">
-創設60周年・改名30周年
+<div class="text-2xl text-gray-600 mt-8">
+日本サッカーの構造から地方クラブの魅力まで
 </div>
 
 <div class="pt-12">
@@ -25,282 +23,488 @@ mdc: true
 </div>
 
 <!--
-ヴァンフォーレ甲府の紹介プレゼンテーションです。
-2025年は創設60周年・改名30周年の記念すべき年です。
+今日は日本のサッカー構造から始めて、ヴァンフォーレ甲府というクラブを知り、
+応援することの楽しさと苦しさをお伝えします。
+-->
+
+---
+
+## layout: section
+
+# 第1部
+
+## 日本サッカーの構造とJリーグ
+
+<!--
+まずは日本のサッカーがどのような構造になっているのか、
+Jリーグとは何かを理解しましょう。
+-->
+
+---
+
+# Jリーグのピラミッド構造
+
+<div class="mt-4">
+  <div class="bg-red-500 text-white p-4 rounded-t-lg text-center font-bold">
+    J1リーグ（20クラブ）
+  </div>
+  <div class="bg-orange-500 text-white p-4 text-center font-bold">
+    J2リーグ（20クラブ）
+  </div>
+  <div class="bg-yellow-500 text-white p-4 text-center font-bold">
+    J3リーグ（20クラブ）
+  </div>
+  <div class="bg-gray-400 text-white p-3 text-center">
+    JFL（日本フットボールリーグ）
+  </div>
+  <div class="bg-gray-300 text-gray-700 p-2 text-center text-sm">
+    地域リーグ（9地域）
+  </div>
+  <div class="bg-gray-200 text-gray-600 p-2 rounded-b-lg text-center text-sm">
+    都道府県リーグ
+  </div>
+</div>
+
+<div class="mt-6 text-center">
+  <p class="text-lg">全国に<span class="text-2xl font-bold text-blue-600">60</span>のプロクラブ</p>
+  <p class="text-sm text-gray-600">41都道府県に分布</p>
+</div>
+
+<!--
+日本のサッカーはピラミッド構造になっています。
+頂点のJ1から都道府県リーグまで、選手たちは昇格を目指して戦います。
+-->
+
+---
+
+# 昇格・降格システム
+
+<div class="grid grid-cols-2 gap-8 mt-8">
+  <div>
+    <h3 class="text-xl font-bold mb-4">J1 ⇔ J2</h3>
+    <div class="space-y-2">
+      <div class="bg-red-50 p-3 rounded">
+        <p class="font-bold text-red-700">降格</p>
+        <p>下位3クラブが自動降格</p>
+      </div>
+      <div class="bg-green-50 p-3 rounded">
+        <p class="font-bold text-green-700">昇格</p>
+        <p>上位2クラブが自動昇格</p>
+        <p class="text-sm">3-6位はプレーオフ</p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <h3 class="text-xl font-bold mb-4">J2 ⇔ J3</h3>
+    <div class="space-y-2">
+      <div class="bg-red-50 p-3 rounded">
+        <p class="font-bold text-red-700">降格</p>
+        <p>下位2クラブが降格</p>
+      </div>
+      <div class="bg-green-50 p-3 rounded">
+        <p class="font-bold text-green-700">昇格</p>
+        <p>上位2クラブが昇格</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mt-8 text-center bg-blue-50 p-4 rounded-lg">
+  <p class="text-lg font-bold">毎年変わるリーグの顔ぶれ</p>
+  <p>これが観る者を熱くさせる！</p>
+</div>
+
+<!--
+昇格・降格があることで、シーズン終盤まで緊張感のある試合が続きます。
+これがJリーグの醍醐味の一つです。
+-->
+
+---
+
+# Jリーグの理念
+
+<div class="mt-8 space-y-6">
+
+<div class="bg-gradient-to-r from-blue-50 to-blue-100 p-6 rounded-lg">
+  <h3 class="text-2xl font-bold text-blue-800 mb-2">地域密着</h3>
+  <ul class="space-y-2">
+    <li>クラブ名に必ず地域名を含める</li>
+    <li>ホームタウン制度</li>
+    <li>地域貢献活動の義務化</li>
+  </ul>
+</div>
+
+<div class="bg-gradient-to-r from-green-50 to-green-100 p-6 rounded-lg">
+  <h3 class="text-2xl font-bold text-green-800 mb-2">百年構想</h3>
+  <p>「地域に根ざした総合型スポーツクラブ」を目指す</p>
+  <p class="mt-2 text-sm">サッカーだけでなく、様々なスポーツで地域を豊かに</p>
+</div>
+
+</div>
+
+<div class="mt-8 text-center">
+  <p class="text-xl font-bold">クラブは地域の財産</p>
+</div>
+
+<!--
+Jリーグの最大の特徴は「地域密着」です。
+ヨーロッパのクラブのように、100年後も地域に愛されるクラブを目指しています。
+-->
+
+---
+
+## layout: section
+
+# 第2部
+
+## ヴァンフォーレ甲府の概要
+
+<!--
+それでは、山梨県のクラブ「ヴァンフォーレ甲府」について見ていきましょう。
 -->
 
 ---
 
 ## layout: two-cols
 
-# クラブプロフィール
+# ヴァンフォーレ甲府とは
 
 <div class="text-sm">
 
-**正式名称**  
-株式会社ヴァンフォーレ山梨スポーツクラブ
+**創設**: 1965年
 
-**創設**  
-1965年（甲府クラブとして）
+**ホームタウン**: 山梨県全県
 
-**ホームタウン**  
-山梨県全県（中心は甲府市・韮崎市）
-
-**ホームスタジアム**  
+**ホームスタジアム**:  
 JITリサイクルインク スタジアム
 
-**チームカラー**  
-青・ワインレッド
+**所属リーグ**: J2リーグ
 
+**チームカラー**: 青・ワインレッド
+
+</div>
+
+<div class="mt-6">
+  <div class="bg-blue-100 p-4 rounded-lg">
+    <h4 class="font-bold mb-2">ヴァンフォーレの由来</h4>
+    <p class="text-sm">VENT（風）+ FORET（林）</p>
+    <p class="text-sm mt-1">武田信玄の「風林火山」から</p>
+  </div>
 </div>
 
 ::right::
 
-<div class="flex items-center justify-center h-full">
-  <img src="https://via.placeholder.com/400x300/0066CC/FFFFFF?text=クラブエンブレム" alt="ヴァンフォーレ甲府エンブレム" class="rounded-lg shadow-lg">
+<div class="flex flex-col items-center justify-center h-full">
+  <img src="https://via.placeholder.com/350x350/0066CC/FFFFFF?text=ヴァンフォーレ甲府エンブレム" alt="エンブレム" class="rounded-lg shadow-lg mb-4">
+  <p class="text-sm text-gray-600">2025年 創設60周年</p>
 </div>
 
 <!--
-ヴァンフォーレ甲府の基本情報です。
-山梨県全県をホームタウンとする地域密着型クラブです。
+ヴァンフォーレ甲府は、山梨県全県をホームタウンとするクラブです。
+チーム名は武田信玄の「風林火山」に由来しています。
 -->
 
 ---
 
-# ヴァンフォーレの由来
+# なぜヴァンフォーレ甲府なのか？
 
-<div class="grid grid-cols-2 gap-8 mt-8">
-  <div class="bg-blue-50 p-6 rounded-lg">
-    <h3 class="text-2xl font-bold text-blue-800 mb-4">VENT（風）</h3>
-    <p class="text-lg">フランス語で「風」を意味する</p>
+<div class="grid grid-cols-2 gap-6 mt-8">
+  
+  <div class="bg-purple-50 p-6 rounded-lg">
+    <h3 class="text-xl font-bold text-purple-800 mb-3">地方クラブの象徴</h3>
+    <ul class="list-disc list-inside space-y-2 text-sm">
+      <li>特定の母体企業を持たない</li>
+      <li>地域の小口スポンサーで運営</li>
+      <li>県民・サポーターが支える</li>
+    </ul>
   </div>
-  <div class="bg-green-50 p-6 rounded-lg">
-    <h3 class="text-2xl font-bold text-green-800 mb-4">FORET（林）</h3>
-    <p class="text-lg">フランス語で「林」を意味する</p>
+
+  <div class="bg-orange-50 p-6 rounded-lg">
+    <h3 class="text-xl font-bold text-orange-800 mb-3">J2の中堅クラブ</h3>
+    <ul class="list-disc list-inside space-y-2 text-sm">
+      <li>J1とJ2を行き来</li>
+      <li>華やかさより堅実さ</li>
+      <li>育成に定評</li>
+    </ul>
   </div>
+
 </div>
 
-<div class="mt-8 text-center">
-  <div class="text-3xl font-bold text-gray-800">風林火山</div>
-  <p class="mt-4 text-xl">武田信玄の軍旗から命名</p>
+<div class="mt-8 bg-gray-100 p-6 rounded-lg text-center">
+  <p class="text-lg font-bold mb-2">日本のサッカーの「リアル」がここにある</p>
+  <p class="text-sm">巨大クラブではないからこそ見える、Jリーグの本質</p>
 </div>
 
 <!--
-チーム名の由来は武田信玄の「風林火山」から。
-1995年にヴァンフォーレ甲府に改名しました。
+ヴァンフォーレ甲府は、Jリーグの理念を体現する地方クラブです。
+華やかなビッグクラブとは違う、日本サッカーのリアルな姿があります。
+-->
+
+---
+
+## layout: section
+
+# 第3部
+
+## 歴史 - 栄光と苦難
+
+<!--
+ヴァンフォーレ甲府の60年の歴史を振り返ります。
 -->
 
 ---
 
 ## layout: center
 
-# 歴史的な歩み
+# 歴史年表
 
-<div class="timeline mt-8">
-  <div class="flex justify-between items-center">
+<div class="timeline mt-6 text-sm">
+  <div class="grid grid-cols-5 gap-4">
     <div class="text-center">
-      <div class="text-2xl font-bold">1965</div>
-      <div>創設</div>
+      <div class="text-xl font-bold text-gray-700">1965</div>
+      <div class="bg-gray-200 p-2 rounded mt-2">
+        <p>甲府クラブ</p>
+        <p>創設</p>
+      </div>
     </div>
     <div class="text-center">
-      <div class="text-2xl font-bold">1999</div>
-      <div>J2参入</div>
+      <div class="text-xl font-bold text-blue-700">1999</div>
+      <div class="bg-blue-200 p-2 rounded mt-2">
+        <p>J2リーグ</p>
+        <p>参入</p>
+      </div>
     </div>
     <div class="text-center">
-      <div class="text-2xl font-bold">2005</div>
-      <div>J1初昇格</div>
+      <div class="text-xl font-bold text-red-700">2000</div>
+      <div class="bg-red-200 p-2 rounded mt-2">
+        <p>経営危機</p>
+        <p>存続の危機</p>
+      </div>
     </div>
     <div class="text-center">
-      <div class="text-2xl font-bold">2022</div>
-      <div>天皇杯優勝</div>
+      <div class="text-xl font-bold text-green-700">2005</div>
+      <div class="bg-green-200 p-2 rounded mt-2">
+        <p>J1初昇格</p>
+        <p>悲願達成</p>
+      </div>
     </div>
     <div class="text-center">
-      <div class="text-2xl font-bold">2023</div>
-      <div>ACL出場</div>
+      <div class="text-xl font-bold text-yellow-700">2022</div>
+      <div class="bg-yellow-200 p-2 rounded mt-2">
+        <p>天皇杯優勝</p>
+        <p>クラブ史上初</p>
+      </div>
     </div>
   </div>
 </div>
 
+<div class="mt-8 text-center">
+  <p class="text-lg">波乱万丈の60年</p>
+</div>
+
 <!--
-主要な歴史的出来事を時系列で紹介。
-特に2022年の天皇杯優勝は快挙でした。
+創設から60年、山あり谷ありの歴史です。
+特に2000年の経営危機と2022年の天皇杯優勝は対照的な出来事でした。
 -->
 
 ---
 
-# 2000年の経営危機
+# 2000年 最大の危機
 
-<div class="bg-red-50 p-6 rounded-lg mt-6">
-  <h3 class="text-2xl font-bold text-red-800 mb-4">最大の危機</h3>
-  <ul class="list-disc list-inside text-lg space-y-2">
-    <li>累積赤字: 4.5億円</li>
-    <li>債務超過: 1.2億円</li>
-    <li>クラブ消滅の危機</li>
-  </ul>
+<div class="bg-gradient-to-b from-red-100 to-red-50 p-8 rounded-lg mt-6">
+  
+  <h3 class="text-2xl font-bold text-red-800 mb-4">クラブ消滅の危機</h3>
+  
+  <div class="grid grid-cols-2 gap-6">
+    <div>
+      <h4 class="font-bold mb-2">危機的状況</h4>
+      <ul class="space-y-2">
+        <li>累積赤字: <span class="font-bold text-red-600">4.5億円</span></li>
+        <li>債務超過: <span class="font-bold text-red-600">1.2億円</span></li>
+        <li>スポンサー離れ</li>
+      </ul>
+    </div>
+    <div>
+      <h4 class="font-bold mb-2">救済の動き</h4>
+      <ul class="space-y-2">
+        <li>県民募金活動</li>
+        <li>地元企業の支援</li>
+        <li>サポーターの結束</li>
+      </ul>
+    </div>
+  </div>
+  
 </div>
 
-<div class="bg-blue-50 p-6 rounded-lg mt-6">
-  <h3 class="text-2xl font-bold text-blue-800 mb-4">地域の力で存続</h3>
-  <ul class="list-disc list-inside text-lg space-y-2">
-    <li>県民・企業からの支援</li>
-    <li>小口スポンサーの増加</li>
-    <li>地域密着型経営への転換</li>
-  </ul>
+<div class="mt-6 bg-blue-50 p-6 rounded-lg">
+  <p class="text-center text-lg font-bold">「県民みんなのクラブ」として再出発</p>
+  <p class="text-center mt-2">この経験が、より強い地域密着型クラブへの転換点に</p>
 </div>
 
 <!--
-2000年の経営危機は、地域の支援により乗り越えました。
-これがより強固な地域密着型クラブへの転換点となりました。
+2000年の経営危機は、ヴァンフォーレ甲府にとって最大の試練でした。
+しかし、地域の支援により乗り越え、真の県民クラブとして生まれ変わりました。
 -->
 
 ---
 
 layout: image-right
-image: https://via.placeholder.com/600x800/FF0000/FFFFFF?text=天皇杯トロフィー
+image: https://via.placeholder.com/600x800/FFD700/000000?text=天皇杯
 
 ---
 
-# 2022年 天皇杯初優勝
+# 2022年 天皇杯優勝
 
-## J2から史上初の快挙
+## 歴史的快挙
 
 <v-clicks>
 
+- **J2所属での優勝は史上初**
 - J1の5チームを撃破
-- 決勝でサンフレッチェ広島に勝利
-- J2所属クラブとして初優勝
-- 翌年のACL出場権獲得
+- 決勝: ヴァンフォーレ 2-1 広島
+- 甲府の街が歓喜に包まれた
 
 </v-clicks>
 
+<div v-after class="mt-6 bg-yellow-50 p-4 rounded-lg">
+  <p class="font-bold">この優勝が証明したこと</p>
+  <p class="text-sm mt-2">地方の小さなクラブでも、夢は叶う</p>
+</div>
+
 <!--
-2022年の天皇杯優勝は、J2クラブとしては史上初の快挙でした。
-J1の強豪を次々と破っての優勝は、日本サッカー界に衝撃を与えました。
+22年ぶりのタイトル獲得。
+J2のクラブがJ1の強豪を次々と倒しての優勝は、
+日本サッカー界に大きな衝撃を与えました。
 -->
 
 ---
 
-# AFCチャンピオンズリーグ 2023
+## layout: section
 
-<div class="grid grid-cols-2 gap-8 mt-8">
-  <div>
-    <h3 class="text-xl font-bold mb-4">初出場でベスト16</h3>
-    <ul class="list-disc list-inside space-y-2">
-      <li>グループステージ突破</li>
-      <li>メルボルン・シティFC戦で勝利</li>
-      <li>300人以上のサポーターが海外遠征</li>
+# 第4部
+
+## 応援する楽しさと苦しさ
+
+<!--
+最後に、地方クラブを応援することの醍醐味についてお話しします。
+-->
+
+---
+
+# 応援の楽しさ
+
+<div class="grid grid-cols-2 gap-6 mt-6">
+  
+  <div class="bg-blue-50 p-6 rounded-lg">
+    <h3 class="text-xl font-bold text-blue-800 mb-3">距離の近さ</h3>
+    <ul class="list-disc list-inside space-y-2 text-sm">
+      <li>選手との距離が近い</li>
+      <li>クラブスタッフとの交流</li>
+      <li>意見が届きやすい</li>
+      <li>「自分たちのクラブ」感</li>
     </ul>
   </div>
-  <div class="flex items-center justify-center">
-    <img src="https://via.placeholder.com/400x300/00AA00/FFFFFF?text=ACL+2023" alt="ACL 2023" class="rounded-lg shadow-lg">
-  </div>
-</div>
 
-<div class="mt-8 text-center bg-gray-100 p-4 rounded-lg">
-  <p class="text-lg font-bold">#甲府にチカラを</p>
-  <p>全国のサッカーファンから応援</p>
-</div>
-
-<!--
-ACL初出場でベスト16は素晴らしい成績でした。
-他クラブのサポーターからも応援される、愛されるクラブです。
--->
-
----
-
-## layout: two-cols
-
-# マスコットキャラクター
-
-<div class="space-y-6">
-
-## ヴァンくん
-
-- 甲斐犬をモチーフ
-- 青い体が特徴
-- 背番号12
-
-## フォーレちゃん
-
-- 同じく甲斐犬がモチーフ
-- ブドウの葉の前髪
-- ヴァンくんのガールフレンド
-
-</div>
-
-::right::
-
-<div class="flex flex-col items-center justify-center h-full space-y-4">
-  <img src="https://via.placeholder.com/300x300/0066CC/FFFFFF?text=ヴァンくん" alt="ヴァンくん" class="rounded-lg">
-  <img src="https://via.placeholder.com/300x300/FF69B4/FFFFFF?text=フォーレちゃん" alt="フォーレちゃん" class="rounded-lg">
-</div>
-
-<!--
-マスコットは山梨県の県犬である甲斐犬がモチーフです。
-ヴァンくんの背番号12は、サポーターを12番目の選手と考えているからです。
--->
-
----
-
-# 地域との絆
-
-<div class="grid grid-cols-2 gap-6 mt-8">
-  <div class="bg-purple-50 p-6 rounded-lg">
-    <h3 class="text-xl font-bold text-purple-800 mb-3">ホームタウン活動</h3>
-    <ul class="list-disc list-inside space-y-2">
-      <li>サッカー教室の開催</li>
-      <li>地域イベントへの参加</li>
-      <li>学校訪問活動</li>
+  <div class="bg-green-50 p-6 rounded-lg">
+    <h3 class="text-xl font-bold text-green-800 mb-3">成長を見守る喜び</h3>
+    <ul class="list-disc list-inside space-y-2 text-sm">
+      <li>若手選手の成長</li>
+      <li>無名選手の覚醒</li>
+      <li>チームの進化</li>
+      <li>一緒に戦っている感覚</li>
     </ul>
   </div>
-  <div class="bg-yellow-50 p-6 rounded-lg">
-    <h3 class="text-xl font-bold text-yellow-800 mb-3">地域商業との連携</h3>
-    <ul class="list-disc list-inside space-y-2">
-      <li>甲府中央商店街にショップ</li>
-      <li>地元企業とのコラボ</li>
-      <li>地産地消の推進</li>
-    </ul>
-  </div>
+
 </div>
 
-<div class="mt-8 text-center text-lg">
-<p class="font-bold">「地域に愛され、地域のインフラとなる」</p>
+<div class="mt-6 bg-yellow-50 p-6 rounded-lg">
+  <h3 class="text-xl font-bold text-yellow-800 mb-3">勝利の価値</h3>
+  <p>ビッグクラブに勝った時の喜びは格別！</p>
+  <p class="text-sm mt-2">2022年天皇杯、浦和・川崎・鹿島を破った時の歓喜は一生忘れない</p>
 </div>
 
 <!--
-特定の母体企業を持たず、地域の支援で運営される珍しいクラブです。
-地域との絆が、ヴァンフォーレ甲府の最大の強みです。
+地方クラブならではの楽しさがあります。
+特に「距離の近さ」は大きな魅力です。
 -->
 
 ---
 
-## layout: center
+# 応援の苦しさ
 
-# 2025年のチャレンジ
+<div class="grid grid-cols-2 gap-6 mt-6">
+  
+  <div class="bg-gray-100 p-6 rounded-lg">
+    <h3 class="text-xl font-bold text-gray-700 mb-3">現実的な制約</h3>
+    <ul class="list-disc list-inside space-y-2 text-sm">
+      <li>予算の少なさ</li>
+      <li>スター選手の流出</li>
+      <li>施設の老朽化</li>
+      <li>メディア露出の少なさ</li>
+    </ul>
+  </div>
 
-<div class="mt-8 space-y-6">
+  <div class="bg-red-50 p-6 rounded-lg">
+    <h3 class="text-xl font-bold text-red-700 mb-3">感情的な苦しさ</h3>
+    <ul class="list-disc list-inside space-y-2 text-sm">
+      <li>降格の恐怖</li>
+      <li>大敗することも</li>
+      <li>観客数の伸び悩み</li>
+      <li>「また来年」の繰り返し</li>
+    </ul>
+  </div>
 
-<div class="text-3xl font-bold text-blue-600">
-創設60周年・改名30周年
 </div>
 
-<div class="text-2xl">
-キャッチフレーズ：「甲府ロマン」
+<div class="mt-6 bg-purple-50 p-6 rounded-lg text-center">
+  <p class="text-lg font-bold">それでも応援をやめられない</p>
+  <p class="mt-2">苦しい時を一緒に乗り越えるからこそ、喜びは大きい</p>
 </div>
 
-<div class="text-2xl">
-クラブスローガン：「ソコヂカラ」（底力）
-</div>
+<!--
+正直、苦しいことの方が多いかもしれません。
+でも、だからこそ応援のしがいがあるんです。
+-->
 
-<div class="mt-8 p-6 bg-gradient-to-r from-blue-500 to-blue-700 text-white rounded-lg">
-  <p class="text-3xl font-bold text-center">目標：J1昇格</p>
-</div>
+---
+
+# J2の日常
+
+<div class="mt-8">
+  
+  <div class="bg-gradient-to-r from-gray-100 to-gray-200 p-6 rounded-lg mb-4">
+    <h3 class="text-xl font-bold mb-3">毎年繰り返される希望と失望</h3>
+    <div class="grid grid-cols-3 gap-4 text-center">
+      <div>
+        <p class="font-bold">3月</p>
+        <p class="text-sm">「今年こそJ1！」</p>
+      </div>
+      <div>
+        <p class="font-bold">7月</p>
+        <p class="text-sm">「プレーオフ圏内なら...」</p>
+      </div>
+      <div>
+        <p class="font-bold">11月</p>
+        <p class="text-sm">「来年こそは...」</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-blue-50 p-6 rounded-lg">
+    <h3 class="text-xl font-bold mb-3">でも、それがいい</h3>
+    <ul class="space-y-2">
+      <li>• 毎年新しいドラマがある</li>
+      <li>• 小さな成長を喜べる</li>
+      <li>• サポーター同士の絆が深まる</li>
+      <li>• いつか掴む栄光への期待</li>
+    </ul>
+  </div>
 
 </div>
 
 <!--
-2025年は節目の年。
-新監督の下、J1昇格を目指して戦います。
+J2の日常は、希望と失望の繰り返しです。
+でも、それがサッカーの、スポーツの本質かもしれません。
 -->
 
 ---
@@ -310,39 +514,53 @@ class: text-center
 
 ---
 
-# ヴァンフォーレ甲府を応援しよう！
+# なぜ応援を続けるのか
 
-<div class="mt-8">
-  <img src="https://via.placeholder.com/600x400/0066CC/FFFFFF?text=JITスタジアムの熱気" alt="スタジアム" class="mx-auto rounded-lg shadow-2xl">
+<div class="mt-8 space-y-6">
+
+<div class="text-2xl">
+クラブは<span class="font-bold text-blue-600">地域のアイデンティティ</span>
 </div>
 
-<div class="mt-8 text-2xl">
-  <p>一緒に青い旋風を巻き起こそう！</p>
+<div class="text-xl">
+勝っても負けても、<span class="font-bold">我がクラブ</span>
 </div>
 
-<div class="mt-6">
-  <a href="https://www.ventforet.jp" class="text-blue-600 text-xl hover:underline">
-    www.ventforet.jp
-  </a>
+<div class="bg-gradient-to-r from-blue-500 to-purple-600 text-white p-8 rounded-lg">
+  <p class="text-2xl font-bold">一緒に喜び、一緒に泣く</p>
+  <p class="mt-4">それがサポーターという生き方</p>
+</div>
+
 </div>
 
 <!--
-ぜひスタジアムでヴァンフォーレ甲府を応援してください！
-山梨の誇り、ヴァンフォーレ甲府の挑戦は続きます。
+結局、クラブは生活の一部なんです。
+家族のような存在。だから応援を続けるんです。
 -->
 
 ---
 
 ## layout: end
 
-# ありがとうございました
+# ヴァンフォーレ甲府へようこそ
 
 <div class="text-xl mt-8">
-  <p>ヴァンフォーレ甲府</p>
-  <p>〜 風林火山の誇り 〜</p>
+  <p>もし興味を持っていただけたら...</p>
+  <p class="mt-4">一度スタジアムへ</p>
 </div>
 
-<div class="mt-12 text-sm">
-  <p>Twitter: @ventforet_kofu</p>
-  <p>Instagram: @ventforet_kofu</p>
+<div class="mt-8">
+  <p class="text-sm">JITリサイクルインク スタジアム</p>
+  <p class="text-sm">（山梨県甲府市）</p>
 </div>
+
+<div class="mt-8 text-sm">
+  <p>🌐 www.ventforet.jp</p>
+  <p>📱 @ventforet_kofu</p>
+</div>
+
+<!--
+地方クラブの応援は、確かに楽ではありません。
+でも、だからこそ面白い。
+ぜひ一度、スタジアムでその雰囲気を感じてください。
+-->
