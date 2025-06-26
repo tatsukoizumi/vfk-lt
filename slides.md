@@ -11,6 +11,7 @@ mdc: true
 ---
 
 # ヴァンフォーレ甲府
+
 ## 風林火山の誇り
 
 <div class="text-2xl text-blue-600 font-bold mt-8">
@@ -29,8 +30,8 @@ mdc: true
 -->
 
 ---
-layout: two-cols
----
+
+## layout: two-cols
 
 # クラブプロフィール
 
@@ -90,8 +91,8 @@ JITリサイクルインク スタジアム
 -->
 
 ---
-layout: center
----
+
+## layout: center
 
 # 歴史的な歩み
 
@@ -153,8 +154,10 @@ layout: center
 -->
 
 ---
+
 layout: image-right
 image: https://via.placeholder.com/600x800/FF0000/FFFFFF?text=天皇杯トロフィー
+
 ---
 
 # 2022年 天皇杯初優勝
@@ -204,19 +207,21 @@ ACL初出場でベスト16は素晴らしい成績でした。
 -->
 
 ---
-layout: two-cols
----
+
+## layout: two-cols
 
 # マスコットキャラクター
 
 <div class="space-y-6">
 
 ## ヴァンくん
+
 - 甲斐犬をモチーフ
 - 青い体が特徴
 - 背番号12
 
 ## フォーレちゃん
+
 - 同じく甲斐犬がモチーフ
 - ブドウの葉の前髪
 - ヴァンくんのガールフレンド
@@ -268,8 +273,8 @@ layout: two-cols
 -->
 
 ---
-layout: center
----
+
+## layout: center
 
 # 2025年のチャレンジ
 
@@ -299,8 +304,10 @@ layout: center
 -->
 
 ---
+
 layout: center
 class: text-center
+
 ---
 
 # ヴァンフォーレ甲府を応援しよう！
@@ -325,8 +332,8 @@ class: text-center
 -->
 
 ---
-layout: end
----
+
+## layout: end
 
 # ありがとうございました
 
