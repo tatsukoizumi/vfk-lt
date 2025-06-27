@@ -186,6 +186,16 @@ h3 {
   border-left: 4px solid #6b7280;
 }
 
+.bg-j1 {
+  background: var(--j1-red);
+}
+.bg-j2 {
+  background: var(--j2-green);
+}
+.bg-j3 {
+  background: var(--j3-blue);
+}
+
 /* カードスタイルの改善 */
 .rounded-lg {
   @apply shadow-sm;

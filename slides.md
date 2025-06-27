@@ -16,33 +16,28 @@ drawings:
 # ヴァンフォーレ甲府
 
 ---
-
-## layout: section
+layout: section
+---
 
 # 第1部
-
 ## 日本サッカーの構造とJリーグ
 
-<!--
-まずは日本のサッカーがどのような構造になっているのか、
-Jリーグとは何かを理解しましょう。
--->
 
 ---
 
-# Jリーグのピラミッド構造
+# 日本サッカーのピラミット構造
 
-<div class="mt-4">
-  <div class="bg-red-500 text-white p-4 rounded-t-lg text-center font-bold">
+<div class="mt-10">
+  <div class="bg-j1 text-white p-4 rounded-t-lg text-center font-bold">
     J1リーグ（20クラブ）
   </div>
-  <div class="bg-orange-500 text-white p-4 text-center font-bold">
+  <div class="bg-j2 text-white p-4 text-center font-bold">
     J2リーグ（20クラブ）
   </div>
-  <div class="bg-yellow-500 text-white p-4 text-center font-bold">
+  <div class="bg-j3 text-white p-4 text-center font-bold">
     J3リーグ（20クラブ）
   </div>
-  <div class="bg-gray-400 text-white p-3 text-center">
+  <div class="bg-yellow-500 text-white p-3 text-center">
     JFL（日本フットボールリーグ）
   </div>
   <div class="bg-gray-300 text-gray-700 p-2 text-center text-sm">
@@ -53,10 +48,7 @@ Jリーグとは何かを理解しましょう。
   </div>
 </div>
 
-<div class="mt-6 text-center">
-  <p class="text-lg">全国に<span class="text-2xl font-bold text-blue-600">60</span>のプロクラブ</p>
-  <p class="text-sm text-gray-600">41都道府県に分布</p>
-</div>
+
 
 <!--
 日本のサッカーはピラミッド構造になっています。
@@ -67,7 +59,7 @@ Jリーグとは何かを理解しましょう。
 
 # 昇格・降格システム
 
-<div class="grid grid-cols-2 gap-8 mt-8">
+<div class="grid grid-cols-3 gap-8 mt-8">
   <div>
     <h3 class="text-xl font-bold mb-4">J1 ⇔ J2</h3>
     <div class="space-y-2">
@@ -87,20 +79,32 @@ Jリーグとは何かを理解しましょう。
     <div class="space-y-2">
       <div class="bg-red-50 p-3 rounded">
         <p class="font-bold text-red-700">降格</p>
-        <p>下位2クラブが降格</p>
+        <p>下位3クラブが自動降格</p>
       </div>
       <div class="bg-green-50 p-3 rounded">
         <p class="font-bold text-green-700">昇格</p>
-        <p>上位2クラブが昇格</p>
+        <p>上位2クラブが自動昇格</p>
+        <p class="text-sm">3-6位はプレーオフ</p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <h3 class="text-xl font-bold mb-4">J3 ⇔ JFL</h3>
+    <div class="space-y-2">
+      <div class="bg-red-50 p-3 rounded">
+        <p class="font-bold text-red-700">降格</p>
+        <p>最下位クラブが自動降格</p>
+      </div>
+      <div class="bg-green-50 p-3 rounded">
+        <p class="font-bold text-green-700">昇格</p>
+        <p>上位1クラブが自動昇格</p>
+        <p class="text-sm">JFL2位はJ3の19位と入れ替え戦</p>
       </div>
     </div>
   </div>
 </div>
 
-<div class="mt-8 text-center bg-blue-50 p-4 rounded-lg">
-  <p class="text-lg font-bold">毎年変わるリーグの顔ぶれ</p>
-  <p>これが観る者を熱くさせる！</p>
-</div>
+
 
 <!--
 昇格・降格があることで、シーズン終盤まで緊張感のある試合が続きます。
@@ -140,11 +144,10 @@ Jリーグの最大の特徴は「地域密着」です。
 -->
 
 ---
-
-## layout: section
+layout: section
+---
 
 # 第2部
-
 ## ヴァンフォーレ甲府の概要
 
 <!--
@@ -152,8 +155,8 @@ Jリーグの最大の特徴は「地域密着」です。
 -->
 
 ---
-
-## layout: two-cols
+layout: two-cols
+---
 
 # ヴァンフォーレ甲府とは
 
@@ -168,7 +171,7 @@ JITリサイクルインク スタジアム
 
 **所属リーグ**: J2リーグ
 
-**チームカラー**: 青・ワインレッド
+**チームカラー**: 青・赤
 
 </div>
 
@@ -183,7 +186,7 @@ JITリサイクルインク スタジアム
 ::right::
 
 <div class="flex flex-col items-center justify-center h-full">
-  <img src="https://via.placeholder.com/350x350/1e3a8a/FFFFFF?text=ヴァンフォーレ甲府エンブレム" alt="エンブレム" class="rounded-lg shadow-lg mb-4">
+  <img src="https://www.kanko-miyazaki.jp/storage/special_feature_paragraphs/474/responsive_images/S47tXUmCjvw7qWaBAaSFV2QuHRrYJWzIya1hZPMZ__1040_720.jpg" alt="エンブレム">
   <p class="text-sm text-gray-600">2025年 創設60周年</p>
 </div>
 
@@ -229,11 +232,10 @@ JITリサイクルインク スタジアム
 -->
 
 ---
-
-## layout: section
+layout: section
+---
 
 # 第3部
-
 ## 歴史 - 栄光と苦難
 
 <!--
@@ -242,12 +244,11 @@ JITリサイクルインク スタジアム
 
 ---
 
-## layout: center
 
 # 歴史年表
 
-<div class="timeline mt-6 text-sm">
-  <div class="grid grid-cols-5 gap-4">
+<div class="timeline text-sm">
+  <div class="grid grid-cols-5 gap-4 mt-16">
     <div class="text-center">
       <div class="text-xl font-bold text-gray-700">1965</div>
       <div class="bg-gray-200 p-2 rounded mt-2">
@@ -335,24 +336,20 @@ JITリサイクルインク スタジアム
 -->
 
 ---
-
 layout: image-right
 image: https://via.placeholder.com/600x800/dc2626/FFFFFF?text=天皇杯トロフィー
-
 ---
 
 # 2022年 天皇杯優勝
 
 ## 歴史的快挙
 
-<v-clicks>
 
-- **J2所属での優勝は史上初**
+- **J2所属チームが日本一に輝く!!**
 - J1の5チームを撃破
 - 決勝: ヴァンフォーレ 2-1 広島
-- 甲府の街が歓喜に包まれた
+- 山梨の街が歓喜に包まれた
 
-</v-clicks>
 
 <div v-after class="mt-6 bg-yellow-50 p-4 rounded-lg">
   <p class="font-bold">この優勝が証明したこと</p>
@@ -366,11 +363,10 @@ J2のクラブがJ1の強豪を次々と倒しての優勝は、
 -->
 
 ---
-
-## layout: section
+layout: section
+---
 
 # 第4部
-
 ## 応援する楽しさと苦しさ
 
 <!--
@@ -497,10 +493,6 @@ J2の日常は、希望と失望の繰り返しです。
 
 ---
 
-layout: center
-class: text-center
-
----
 
 # なぜ応援を続けるのか
 
@@ -527,8 +519,6 @@ class: text-center
 -->
 
 ---
-
-## layout: end
 
 # ヴァンフォーレ甲府へようこそ
 
