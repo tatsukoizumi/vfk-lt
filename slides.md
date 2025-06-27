@@ -563,5 +563,10 @@ layout: section
 # 参考
 
 - [ヴァンフォーレ甲府ホームページ](https://www.ventforet.jp/index)
+<img class="h-25 w-25" src="./assets/qrcode_www.ventforet.jp.png" />
+
 - [Jリーグチケットの買い方](https://www.jleague.jp/special/beginner/ticket.html)
+<img class="h-25 w-25" src="./assets/qrcode_www.jleague.jp.png" />
+
 - [はくばく](https://www.hakubaku.co.jp/)
+<img class="h-25 w-25" src="./assets/qrcode_www.hakubaku.co.jp.png" />

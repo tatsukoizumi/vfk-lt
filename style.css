@@ -278,3 +278,8 @@ strong,
 .slidev-layout[data-layout='center'] .slidev-content {
   @apply text-center;
 }
+
+img {
+  width: 240px;
+  height: auto;
+}
