@@ -196,6 +196,17 @@ h3 {
   background: var(--j3-blue);
 }
 
+/* Jリーグカラーのテキスト用 */
+.text-j1-red {
+  color: var(--j1-red) !important;
+}
+.text-j2-green {
+  color: var(--j2-green) !important;
+}
+.text-j3-blue {
+  color: var(--j3-blue) !important;
+}
+
 /* カードスタイルの改善 */
 .rounded-lg {
   @apply shadow-sm;

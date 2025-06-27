@@ -1,10 +1,7 @@
 ---
 theme: default
 background:
-title: ヴァンフォーレ甲府を知る・応援する
-info: |
-  ## ヴァンフォーレ甲府を知る・応援する
-  日本のサッカー構造から、ヴァンフォーレ甲府の魅力、そして応援の楽しさ（苦しさ）まで
+title: ヴァンフォーレ甲府
 class: text-center
 colorSchema: light
 transition: slide-left
@@ -155,6 +152,19 @@ Jリーグの最大の特徴は「地域密着」です。
 -->
 
 ---
+
+# Jリーグは全部で60クラブ
+
+<div class="flex gap-8 mt-8">
+  <img class="w-70 h-80" src="./assets/j1-clubs.png" alt="J1リーグ20クラブ" />
+  <img class="w-70 h-80" src="./assets/j2-clubs.png" alt="J2リーグ20クラブ"/>
+  <img class="w-70 h-80" src="./assets/j3-clubs.png" alt="J3リーグ20クラブ"/>
+</div>
+
+<p class="text-gray">J1は大都市ばかり...</p>
+
+
+---
 layout: section
 ---
 
@@ -177,8 +187,7 @@ layout: two-cols
 
 **ホームタウン**: 山梨県全県
 
-**ホームスタジアム**:  
-JITリサイクルインク スタジアム
+**ホームスタジアム**: JITリサイクルインクスタジアム（小瀬）
 
 **所属リーグ**: J2リーグ
 
@@ -196,21 +205,16 @@ JITリサイクルインク スタジアム
 
 ::right::
 
-<div class="flex flex-col items-center justify-center h-full">
-  <img src="https://www.kanko-miyazaki.jp/storage/special_feature_paragraphs/474/responsive_images/S47tXUmCjvw7qWaBAaSFV2QuHRrYJWzIya1hZPMZ__1040_720.jpg" alt="エンブレム">
-  <p class="text-sm text-gray-600">2025年 創設60周年</p>
+<div class="flex flex-col items-center justify-center h-full gap-10">
+  <img class="h-45 w-45" src="https://cdn.www.ventforet.jp/asset/img/share/logo.svg" alt="エンブレム">
+  <img class="h-45 w-80 round-lg" src="https://cdn.www.ventforet.jp/guide/img/stadium_guide/intro02.jpg" alt="エンブレム">
 </div>
-
-<!--
-ヴァンフォーレ甲府は、山梨県全県をホームタウンとするクラブです。
-チーム名は武田信玄の「風林火山」に由来しています。
--->
 
 ---
 
-# なぜヴァンフォーレ甲府なのか？
+# ヴァンフォーレ甲府の立ち位置
 
-<div class="grid grid-cols-2 gap-6 mt-8">
+<div class="grid grid-cols-2 gap-6 mt-20">
   
   <div class="bg-purple-50 p-6 rounded-lg">
     <h3 class="text-xl font-bold text-purple-800 mb-3">地方クラブの象徴</h3>
@@ -232,10 +236,6 @@ JITリサイクルインク スタジアム
 
 </div>
 
-<div class="mt-8 bg-gray-100 p-6 rounded-lg text-center">
-  <p class="text-lg font-bold mb-2">日本のサッカーの「リアル」がここにある</p>
-  <p class="text-sm">巨大クラブではないからこそ見える、Jリーグの本質</p>
-</div>
 
 <!--
 ヴァンフォーレ甲府は、Jリーグの理念を体現する地方クラブです。
@@ -321,9 +321,7 @@ layout: section
 # 2000年 最大の危機
 
 <div class="bg-gradient-to-b from-red-100 to-red-50 p-8 rounded-lg mt-6">
-  
   <h3 class="text-2xl font-bold text-red-800 mb-4">クラブ消滅の危機</h3>
-  
   <div class="grid grid-cols-2 gap-6">
     <div>
       <h4 class="font-bold mb-2">危機的状況</h4>
@@ -342,13 +340,17 @@ layout: section
       </ul>
     </div>
   </div>
-  
 </div>
 
 <div class="mt-6 bg-blue-50 p-6 rounded-lg">
   <p class="text-center text-lg font-bold">「県民みんなのクラブ」として再出発</p>
   <p class="text-center mt-2">この経験が、より強い地域密着型クラブへの転換点に</p>
 </div>
+
+---
+layout: image
+image: https://www.yafo.or.jp/wp/wp-content/uploads/2000/06/264-2-12.png
+---
 
 <!--
 2000年の経営危機は、ヴァンフォーレ甲府にとって最大の試練でした。
@@ -357,7 +359,7 @@ layout: section
 
 ---
 layout: image-right
-image: https://via.placeholder.com/600x800/dc2626/FFFFFF?text=天皇杯トロフィー
+image: https://sports-pctr.c.yimg.jp/dk/iwiz-sports/text/images/2022/1019/2022101700001-spnavi_1_1666154787_view.jpeg
 ---
 
 # 2022年 天皇杯優勝
@@ -475,8 +477,7 @@ layout: section
 # J2の日常
 
 <div class="mt-8">
-  
-  <div class="bg-gradient-to-r from-gray-100 to-gray-200 p-6 rounded-lg mb-4">
+    <div class="bg-gradient-to-r from-gray-100 to-gray-200 p-6 rounded-lg mb-4">
     <h3 class="text-xl font-bold mb-3">毎年繰り返される希望と失望</h3>
     <div class="grid grid-cols-3 gap-4 text-center">
       <div>
@@ -493,17 +494,6 @@ layout: section
       </div>
     </div>
   </div>
-
-  <div class="bg-blue-50 p-6 rounded-lg">
-    <h3 class="text-xl font-bold mb-3">でも、それがいい</h3>
-    <ul class="space-y-2">
-      <li>• 毎年新しいドラマがある</li>
-      <li>• 小さな成長を喜べる</li>
-      <li>• サポーター同士の絆が深まる</li>
-      <li>• いつか掴む栄光への期待</li>
-    </ul>
-  </div>
-
 </div>
 
 <!--
@@ -548,7 +538,7 @@ J2の日常は、希望と失望の繰り返しです。
 </div>
 
 <div class="mt-8">
-  <p class="text-sm">JITリサイクルインク スタジアム</p>
+  <p class="text-sm">JITリサイクルインク スタジアム（小瀬）</p>
   <p class="text-sm">（山梨県甲府市）</p>
 </div>
 
