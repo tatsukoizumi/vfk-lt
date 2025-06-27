@@ -117,6 +117,8 @@ layout: section
 <!--
 昇格・降格があることで、シーズン終盤まで緊張感のある試合が続きます。
 これがJリーグの醍醐味の一つです。
+
+どんなチームでもJ1への扉が開かれている一方で裏を返せば下への扉も開かれている
 -->
 
 ---
@@ -149,6 +151,8 @@ layout: section
 <!--
 Jリーグの最大の特徴は「地域密着」です。
 ヨーロッパのクラブのように、100年後も地域に愛されるクラブを目指しています。
+
+企業名を入れない
 -->
 
 ---
@@ -237,7 +241,7 @@ layout: two-cols
 <div class="mt-6">
   <div class="bg-blue-100 p-4 rounded-lg">
     <h4 class="font-bold mb-2">ヴァンフォーレの由来</h4>
-    <p class="text-sm">VENT（風）+ FORET（林）</p>
+    <p class="text-sm">VENT（風）+ FORET（林）というフランス語をベースにした造語</p>
     <p class="text-sm mt-1">武田信玄の「風林火山」から</p>
   </div>
 </div>
@@ -248,6 +252,8 @@ layout: two-cols
   <img class="h-45 w-45" src="https://cdn.www.ventforet.jp/asset/img/share/logo.svg" alt="エンブレム">
   <img class="h-45 w-80 round-lg" src="https://cdn.www.ventforet.jp/guide/img/stadium_guide/intro02.jpg" alt="エンブレム">
 </div>
+
+<!-- 「風林火山」は、戦国時代の武将、武田信玄の旗印に書かれた言葉で、孫子の兵法に由来する「疾きこと風の如く、徐かなる事林の如く、侵掠すること火の如く、動かざる事山の如し」の略 -->
 
 ---
 
@@ -392,8 +398,7 @@ image: https://www.yafo.or.jp/wp/wp-content/uploads/2000/06/264-2-12.png
 ---
 
 <!--
-2000年の経営危機は、ヴァンフォーレ甲府にとって最大の試練でした。
-しかし、地域の支援により乗り越え、真の県民クラブとして生まれ変わりました。
+川渕さん
 -->
 
 ---
@@ -440,9 +445,7 @@ AFC = Asian Football Confederation</p>
 
 
 <!--
-22年ぶりのタイトル獲得。
-J2のクラブがJ1の強豪を次々と倒しての優勝は、
-日本サッカー界に大きな衝撃を与えました。
+全部いった（笑）
 -->
 
 
@@ -477,7 +480,7 @@ layout: section
     <h3 class="text-xl font-bold text-green-800 mb-3">👨‍💼 選手の活躍</h3>
     <ul class="list-disc list-inside space-y-2 text-sm">
       <li>選手の成長を見守る喜び</li>
-      <li>謎のブラジル人の活躍</li>
+      <li>謎のブラジル人の活躍 🇧🇷</li>
       <li>無名選手の覚醒</li>
       <li>「発見」する楽しさ</li>
     </ul>
@@ -496,8 +499,7 @@ layout: section
 </div>
 
 <!--
-地方クラブならではの楽しさがあります。
-特に「距離の近さ」は大きな魅力です。
+浦和がクラブW杯でアメリカに行っていた
 -->
 
 ---
@@ -556,6 +558,7 @@ layout: section
   <img class="h-45 w-45" src="https://www.hakubaku.co.jp/cms/wp-content/uploads/top_grains.jpg"/>
   <img class="h-45 w-45" src="https://www.hakubaku.co.jp/cms/wp-content/uploads/%E6%B0%B4%E5%87%BA%E3%81%97%E3%81%A7%E3%81%8A%E3%81%84%E3%81%97%E3%81%84%E9%BA%A6%E8%8C%B6520%C3%97520.jpg" />
   <img class="h-45 w-45" src="https://www.hakubaku.co.jp/cms/wp-content/uploads/%E5%8D%83%E7%95%AA%E3%81%9D%E3%81%86%E3%82%81%E3%82%93540g_s.jpg"/>
+  <img class="h-40 w-70" src="./assets/hakubaku-uniforms.jpg"/>
 </div>
 
 ---
