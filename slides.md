@@ -258,8 +258,10 @@ layout: section
 
 # 歴史年表
 
+<p>今年はクラブ創設60周年の節目の年</p>
+
 <div class="timeline text-sm">
-  <div class="grid grid-cols-5 gap-4 mt-16">
+  <div class="grid grid-cols-6 gap-4 mt-16">
     <div class="text-center">
       <div class="text-xl font-bold text-gray-700">1965</div>
       <div class="bg-gray-200 p-2 rounded mt-2">
@@ -293,6 +295,13 @@ layout: section
       <div class="bg-yellow-200 p-2 rounded mt-2">
         <p>天皇杯優勝</p>
         <p>クラブ史上初</p>
+      </div>
+    </div>
+    <div class="text-center">
+      <div class="text-xl font-bold text-yellow-700">2023</div>
+      <div class="bg-yellow-300 p-2 rounded mt-2">
+        <p>ACL出場</p>
+        <p>初の国際大会</p>
       </div>
     </div>
   </div>
