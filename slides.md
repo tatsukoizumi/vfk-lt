@@ -153,6 +153,46 @@ Jリーグの最大の特徴は「地域密着」です。
 
 ---
 
+# リーグ戦+カップ戦
+
+<p>リーグ戦の他にカップ戦も毎年開催される</p>
+
+<div class="grid grid-cols-2 gap-8 mt-8">
+  
+  <div class="bg-yellow-50 p-6 rounded-lg">
+    <h3 class="text-xl font-bold text-yellow-800 mb-3">🏆 天皇杯</h3>
+    <ul class="space-y-2 text-sm">
+      <li>全国のチームが参加可能</li>
+      <li>J1からアマチュアまで</li>
+      <li>1回戦負けで終了のトーナメント</li>
+      <li>優勝すればACL出場権獲得</li>
+    </ul>
+  </div>
+
+  <div class="bg-blue-50 p-6 rounded-lg">
+    <h3 class="text-xl font-bold text-blue-800 mb-3">🏆 ルヴァンカップ</h3>
+    <ul class="space-y-2 text-sm">
+      <li>J1~J3の全クラブが参加</li>
+      <li>グループステージ→ノックアウト</li>
+      <li>平日開催が多い</li>
+      <li>リーグ戦とは別の栄誉</li>
+    </ul>
+  </div>
+
+</div>
+
+<div class="mt-6 bg-gradient-to-r from-green-50 to-green-100 p-4 rounded-lg">
+  <p class="text-center font-bold">カップ戦では「番狂わせ」が起きやすい</p>
+  <p class="text-center text-sm mt-2">格下チームが格上を倒すジャイアントキリングの舞台</p>
+</div>
+
+<!--
+リーグ戦以外にも2つの重要なカップ戦があります。
+特に天皇杯は全国のチームが参加でき、大きな番狂わせが起こることも。
+-->
+
+---
+
 # Jリーグは全部で60クラブ
 
 <div class="flex gap-8 mt-8">
