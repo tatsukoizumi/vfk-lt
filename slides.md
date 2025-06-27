@@ -462,34 +462,38 @@ layout: section
 
 # 応援の楽しさ
 
-<div class="grid grid-cols-2 gap-6 mt-6">
+<div class="grid grid-cols-3 gap-4 mt-6">
   
   <div class="bg-blue-50 p-6 rounded-lg">
-    <h3 class="text-xl font-bold text-blue-800 mb-3">距離の近さ</h3>
+    <h3 class="text-xl font-bold text-blue-800 mb-3">🎉 勝利の喜び</h3>
     <ul class="list-disc list-inside space-y-2 text-sm">
-      <li>選手との距離が近い</li>
-      <li>クラブスタッフとの交流</li>
-      <li>意見が届きやすい</li>
-      <li>「自分たちのクラブ」感</li>
+      <li>チームの勝利</li>
+      <li>番狂わせの興奮</li>
+      <li>劇的なゴール</li>
+      <li>みんなで喜ぶ一体感</li>
     </ul>
   </div>
 
   <div class="bg-green-50 p-6 rounded-lg">
-    <h3 class="text-xl font-bold text-green-800 mb-3">成長を見守る喜び</h3>
+    <h3 class="text-xl font-bold text-green-800 mb-3">👨‍💼 選手の活躍</h3>
     <ul class="list-disc list-inside space-y-2 text-sm">
-      <li>若手選手の成長</li>
+      <li>選手の成長を見守る喜び</li>
+      <li>謎のブラジル人の活躍</li>
       <li>無名選手の覚醒</li>
-      <li>チームの進化</li>
-      <li>一緒に戦っている感覚</li>
+      <li>「発見」する楽しさ</li>
     </ul>
   </div>
 
-</div>
+  <div class="bg-yellow-50 p-6 rounded-lg">
+    <h3 class="text-xl font-bold text-yellow-800 mb-3">✈️ 遠征の楽しみ</h3>
+    <ul class="list-disc list-inside space-y-2 text-sm">
+      <li>アウェイ遠征で旅行ができる</li>
+      <li>日本各地を巡る</li>
+      <li>なんなら海外も行ける</li>
+      <li>現地グルメも楽しめる</li>
+    </ul>
+  </div>
 
-<div class="mt-6 bg-yellow-50 p-6 rounded-lg">
-  <h3 class="text-xl font-bold text-yellow-800 mb-3">勝利の価値</h3>
-  <p>ビッグクラブに勝った時の喜びは格別！</p>
-  <p class="text-sm mt-2">2022年天皇杯、浦和・川崎・鹿島を破った時の歓喜は一生忘れない</p>
 </div>
 
 <!--
@@ -503,23 +507,22 @@ layout: section
 
 <div class="grid grid-cols-2 gap-6 mt-6">
   
-  <div class="bg-gray-100 p-6 rounded-lg">
-    <h3 class="text-xl font-bold text-gray-700 mb-3">現実的な制約</h3>
+  <div class="bg-red-50 p-6 rounded-lg">
+    <h3 class="text-xl font-bold text-red-700 mb-3">💸 金銭的な苦しさ</h3>
     <ul class="list-disc list-inside space-y-2 text-sm">
-      <li>予算の少なさ</li>
-      <li>スター選手の流出</li>
-      <li>施設の老朽化</li>
-      <li>メディア露出の少なさ</li>
+      <li>お金をかけて九州に行っても負ける（笑）</li>
+      <li>遠征費・宿泊費がかさむ</li>
+      <li>ユニフォーム・グッズ代</li>
+      <li>年間シート代</li>
     </ul>
   </div>
 
-  <div class="bg-red-50 p-6 rounded-lg">
-    <h3 class="text-xl font-bold text-red-700 mb-3">感情的な苦しさ</h3>
+  <div class="bg-gray-100 p-6 rounded-lg">
+    <h3 class="text-xl font-bold text-gray-700 mb-3">😤 精神的な苦しさ</h3>
     <ul class="list-disc list-inside space-y-2 text-sm">
-      <li>降格の恐怖</li>
-      <li>大敗することも</li>
-      <li>観客数の伸び悩み</li>
-      <li>「また来年」の繰り返し</li>
+      <li>勝敗が仕事のパフォーマンスに影響</li>
+      <li>よそのクラブへの嫉妬</li>
+      <li>「なんでうちだけ...」</li>
     </ul>
   </div>
 
@@ -527,7 +530,7 @@ layout: section
 
 <div class="mt-6 bg-purple-50 p-6 rounded-lg text-center">
   <p class="text-lg font-bold">それでも応援をやめられない</p>
-  <p class="mt-2">苦しい時を一緒に乗り越えるからこそ、喜びは大きい</p>
+  <p class="mt-2">喜怒哀楽を毎週のように感じられるのはある幸せではある</p>
 </div>
 
 <!--
@@ -536,36 +539,6 @@ layout: section
 -->
 
 ---
-
-# J2の日常
-
-<div class="mt-8">
-    <div class="bg-gradient-to-r from-gray-100 to-gray-200 p-6 rounded-lg mb-4">
-    <h3 class="text-xl font-bold mb-3">毎年繰り返される希望と失望</h3>
-    <div class="grid grid-cols-3 gap-4 text-center">
-      <div>
-        <p class="font-bold">3月</p>
-        <p class="text-sm">「今年こそJ1！」</p>
-      </div>
-      <div>
-        <p class="font-bold">7月</p>
-        <p class="text-sm">「プレーオフ圏内なら...」</p>
-      </div>
-      <div>
-        <p class="font-bold">11月</p>
-        <p class="text-sm">「来年こそは...」</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!--
-J2の日常は、希望と失望の繰り返しです。
-でも、それがサッカーの、スポーツの本質かもしれません。
--->
-
----
-
 
 # なぜ応援を続けるのか
 
@@ -597,7 +570,7 @@ J2の日常は、希望と失望の繰り返しです。
 
 <div class="text-xl mt-8">
   <p>もし興味を持っていただけたら...</p>
-  <p class="mt-4">一度スタジアムへ</p>
+  <p class="mt-4">ぜひスタジアムへ！</p>
 </div>
 
 <div class="mt-8">
@@ -605,10 +578,6 @@ J2の日常は、希望と失望の繰り返しです。
   <p class="text-sm">（山梨県甲府市）</p>
 </div>
 
-<div class="mt-8 text-sm">
-  <p>🌐 www.ventforet.jp</p>
-  <p>📱 @ventforet_kofu</p>
-</div>
 
 <!--
 地方クラブの応援は、確かに楽ではありません。
