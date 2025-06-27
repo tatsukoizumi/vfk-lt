@@ -62,6 +62,7 @@ mdc: true
    - Use `<v-clicks>` for progressive reveal
    - Add speaker notes with `<!--...-->`
    - Include drawings/annotations capabilities
+6. Please do not make any changes that deviate from the requested content.
 
 ## Dependencies
 
